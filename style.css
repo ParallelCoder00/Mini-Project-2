@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(183, 255, 230);
+}
+nav {
+  font-family: "poppins", sans-serif;   
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 70px;
+   background: rgba(5, 4, 4, 0.975); /* transparent */
+   color: white;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.logo img {
+  width: 55px;
+  margin: 7px;
+  margin: 0 8px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.container {
+  min-height: 73vh;
+  background-color: black;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: url('BG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.icons{
+    margin: 10px 0px;
+    cursor: pointer;
+}
+#myProgressBar {
+  width: 75vw;
+  cursor: pointer;
+ background-color: white;
+}
+.songItem{
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+    background: rgb(13, 211, 112);
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.songItemContainer{
+    margin-top: 15px;
+}
+
+.songItem img{
+        height: 50px;
+        border-radius: 12px;
+}
+
+.songlistplay{
+    margin: 0 10px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+} 
+.songItem .img8{
+    width: 11%;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 12vw;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;   
+    transition: opacity 0.4s ease-in;
+}
+.songName {
+  font-weight: 600;
+}
+
